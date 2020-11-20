@@ -104,12 +104,6 @@ h6 {
     float: left
 }
 
-.listCalend {
-    width: 35%;
-    text-align: center;
-    margin-left: 3%
-}
-
 .grey_gradient {
     background: #fbfdfe;
     background: -moz-linear-gradient(top, #fbfdfe 0, #e2e4e5 100%);
@@ -133,10 +127,6 @@ h6 {
     list-style: none
 }
 
-.icon-lock39 {
-    background: url(../images/icon-login.png) no-repeat
-}
-
 .header_part {
     border-bottom: rgba(0, 0, 0, .2) 1px solid;
     z-index: 1
@@ -144,11 +134,6 @@ h6 {
 
 .header, header {
     background: 0 0
-}
-
-header {
-    background: linear-gradient(to bottom, #02aaee 0, #1789d1 100%);
-    border-bottom: 1px solid #0472b9
 }
 
 .header {
@@ -200,17 +185,6 @@ header {
 
 .hiox_language_list ul {
     list-style: none
-}
-
-.lang {
-    font: 15px/120% Arial, Helvetica, sans-serif;
-    color: #fff;
-    text-align: left
-}
-
-.nav>ul>li>a, .nav>ul>li>span {
-    display: block;
-    padding: 4px 10px
 }
 
 .header, .nav {
@@ -1067,58 +1041,8 @@ header {
     .nav>ul>li>ul {
         position: relative
     }
-    
-    .right_head_con a {
-        text-decoration: none;
-        color: #000
-    }
-    .right_head_con a:hover {
-        color: #000;
-        text-decoration: underline
-    }
-    .right_text {
-        display: none;
-        visibility: hidden;
-        position: absolute;
-        border-top: #f0f167 5px solid;
-        box-shadow: rgba(0, 0, 0, .3) 0 0 5px;
-        top: 100%;
-        right: 0
-    }
-    .right_head_con:hover .right_text {
-        display: block;
-        visibility: visible;
-        padding: 10px;
-        background: #f9f9f9;
-        text-align: left;
-        white-space: nowrap;
-        width: auto;
-        right: 0
-    }
-    .hiox_language_list {
-        padding: 0;
-        position: relative;
-        right: 0
-    }
-    .right_text ul {
-        display: inline-block
-    }
-    .icon-button8, .icon-zoom45 {
-        display: block!important
-    }
-    .right_head_nav {
-        margin-right: 5px;
-        width: 70px
-    }
-    .right_head_con:hover [class*=" icon-"], .right_head_con:hover [class^=icon-] {
-        background: rgba(0, 0, 0, .2)
-    }
-    
     .txtshdow {
         text-shadow: none
-    }
-    .menu_select {
-        background: green
     }
     .close {
         display: block
@@ -1126,9 +1050,6 @@ header {
     .header_part {
         position: relative;
         z-index: 1000
-    }
-    .lang {
-        display: none!important
     }
     .menuleft {
         float: none!important
@@ -1144,9 +1065,6 @@ header {
     }
     .f_left_responsive {
         float: none
-    }
-    .listCalend {
-        width: 100%
     }
     .algebra {
         width: 85%!important
@@ -1213,52 +1131,6 @@ header {
         margin: 10px auto;
         float: none;
         width: 98%
-    }
-    .right_menu_box, .right_menu_box_facts, .right_menu_box_promo {
-        margin: 0 2%;
-        width: 96%
-    }
-    .sprite-logo {
-        width: 34px
-    }
-    .right_search {
-        display: none;
-        visibility: hidden;
-        position: absolute;
-        border-top: #f0f167 5px solid;
-        box-shadow: rgba(0, 0, 0, .3) 0 0 5px;
-        margin-top: 5px;
-        margin-left: -22px
-    }
-    .right_head_search:hover .right_search {
-        display: block;
-        visibility: visible;
-        padding: 10px;
-        background: #f9f9f9;
-        text-align: center;
-        white-space: nowrap;
-        width: 100%;
-        left: 0
-    }
-    .search_box:focus {
-        outline: 0
-    }
-    .icon-search {
-        display: block!important;
-        cursor: pointer;
-        padding: 0
-    }
-    .logo, .logo a {
-        display: block
-    }
-    .right_head_con {
-        padding: 6px 1px!important
-    }
-    .right_head_nav {
-        right: 0;
-        z-index: 100;
-        position: absolute;
-        width: 85%
     }
     .header_part{
         width: 100%
@@ -1529,27 +1401,6 @@ header {
 
 .fn_body a {
     color: #343434
-}
-
-.flash_content p {
-    margin: .5em .1em;
-    padding: 0;
-    font: normal 1em/1.4em Tahoma, Geneva, sans-serif;
-    color: #343434
-}
-
-.flash_content ol li, .flash_content ul li {
-    padding: 0;
-    font: normal 1em/1.4em Tahoma, Geneva, sans-serif;
-    color: #343434
-}
-
-.flash_content ul {
-    margin: .5em .1em
-}
-
-.flash_content div {
-    margin-left: 10px
 }
 
 .formula {
