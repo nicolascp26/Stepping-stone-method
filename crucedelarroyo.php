@@ -80,27 +80,18 @@
     </div>
     <!-- content ends -->
 
-    <script type="text/javascript">
-        var chf_rss = true;
-
-        function getPathFromUrl(url) {
-            return url.split("?")[0];
-        }
-        var curUrl = window.location.pathname;
-        var basName = curUrl.replace(/^.*[\/\\]/g, '');
-        var curencyIndx = false;
-    </script>
+    <!-- Import logic and lib -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
-    <script src='common.js'></script>
-    <script src='jquery.sticky.js'></script>
-
+    <script src='lib/common.js'></script>
+    <script src='lib/jquery.sticky.js'></script>
+    <script src='lib/loader.js'></script>
+    <script type='text/javascript' src='metodo.js'></script>
     <style>
         .tablhiglt {
             background: darkgray;
         }
     </style>
-    <script type='text/javascript' src='metodo.js'> </script>
+    
     <script type="text/javascript">
         function alert(val) {
             $("#dynErrDisp").show();
