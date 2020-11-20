@@ -134,21 +134,24 @@ function northwest_corner() {
 	var demclo = new Array();
 	var si = 0;
 	var di = 0;
-	var valida = true;
-
-	// Verifica que no esten vacias las celdas
+	var esValida = true;
+	
+	/**
+	 * Verifica que no esten vacias las celdas en la ASIGNACION
+	 * y valida la tabla de asignaciones.
+	 */
 	for (b = 0; b <= numFilas; b++) {
 		for (a = 0; a <= numColumnas; a++) {
-			var valu = $("#x" + b + a).val();
+			var valu = $("#x" + b + a).val(); //Toma el valor en la casilla con posicion (b,a)
 			var valus = valu;
 			if (valu == "") {
 				alert("No se permite caja vacia");
-				valida = false;
+				esValida = false;
 				return false;
 			}
 			valu = parseFloat(valu);
 
-			if (!isNaN(valus)) {
+			if (!isNaN(valus)) {//Verifica que el valor sea un numero y no un caracter
 				if (a == numColumnas) {
 					oferta[si] = valu;
 					si++;
@@ -161,8 +164,11 @@ function northwest_corner() {
 			}
 		}
 	}
-
-	if (valida == true) {
+/**
+ * Si la tabla es correcta, es decir es valida,
+ * se comienza con el metodo del cruce del arroyo.
+ */
+	if (esValida == true) {
 		var sumOfertas = 0;
 		for (i = 0; i < oferta.length; i++) {
 			sumOfertas = sumOfertas + oferta[i];
