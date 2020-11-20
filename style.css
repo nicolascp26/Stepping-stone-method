@@ -1901,16 +1901,8 @@ ul.home_list_calc li:before {
         position: absolute;
         width: 85%
     }
-    .header_part, .logo {
+    .header_part{
         width: 100%
-    }
-    [class*=" icon-"], [class^=icon-] {
-        color: #fff
-    }
-    .logo {
-        display: block;
-        text-align: center;
-        vertical-align: middle
     }
     .group_con, .group_con_100, .group_con_30, .group_con_40, .group_con_49, .group_con_45, .group_con_25 {
         width: 100%!important
