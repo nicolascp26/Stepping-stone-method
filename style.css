@@ -838,7 +838,7 @@ ul.home_list_calc li:before {
     color: #717070;
     font-size: 14px;
     margin: 2px;
-    margin-botom: 2px;
+    margin-bottom: 2px;
     padding: 7px 5px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1163,37 +1163,6 @@ ul.home_list_calc li:before {
     padding: 5px;
     border-bottom: #CCC 1px dotted
 }
-
-.page_navigation {
-    margin: 10px auto;
-    padding: 0;
-    text-align: center
-}
-
-.page_navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline-block
-}
-
-.page_navigation ul li {
-    float: left;
-    font: normal .8em/120% Arial, Helvetica, sans-serif;
-    color: #000;
-    margin: 1px
-}
-
-.page_navigation ul li a {
-    float: left;
-    color: #000;
-    background: #fff;
-    display: block;
-    padding: 2px 7px;
-    text-decoration: none;
-    border: 1px solid #dcdcdc
-}
-
 .general_list2 {
     margin: 10px;
     padding: 0
@@ -1242,99 +1211,6 @@ ul.home_list_calc li:before {
 
 .general_list2_con ul li:hover:before {
     border-color: transparent transparent transparent #fff
-}
-
-.tuts_con {
-    margin: 10px;
-    padding: 15px;
-    background: #e6ecf6;
-    border: 2px solid #bac9e1;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px
-}
-
-.tuts_con_txtarea {
-    margin: 10px 4%;
-    padding: 2%;
-    width: 88%;
-    min-height: 200px;
-    background: #fff;
-    border: 1px solid #abadb3;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -o-border-radius: 3px;
-    font: normal 12px/16px Arial, Helvetica, sans-serif;
-    color: #333;
-    -webkit-box-shadow: inset 7px 7px 5px -6px rgba(0, 0, 0, .3);
-    -moz-box-shadow: inset 7px 7px 5px -6px rgba(0, 0, 0, .3);
-    box-shadow: inset 7px 7px 5px -6px rgba(0, 0, 0, .3)
-}
-
-.tuts_code {
-    background: #fff7d8;
-    padding: 10px;
-    margin: 10px 25px;
-    border-left: #d96a5d 7px solid;
-    font: normal 12px/16px Tahoma, Geneva, sans-serif;
-    color: #000;
-    word-wrap: break-word;
-    overflow: auto
-}
-
-.tuts_img {
-    float: left;
-    margin: 7px;
-    padding: 0;
-    border: 1px solid #fff
-}
-
-.sprite-li_hd_bg_a {
-    background-position: 0 -98px;
-    width: 13px;
-    height: 15px
-}
-
-.sprite-li_hd_bg_hover {
-    background-position: 0 -121px;
-    width: 13px;
-    height: 15px
-}
-
-.footer {
-    margin: 0 auto;
-    padding: 1px 0;
-    border-top: #d3d0ca 3px solid;
-    background: #e0ddd8
-}
-
-.footer_con {
-    margin: 0 auto;
-    padding: 0;
-    width: 980px
-}
-
-.footer_con ul {
-    margin: 10px 0;
-    padding: 10px 0;
-    list-style: none;
-    border-top: #d3d0ca 1px solid
-}
-
-.footer_con ul li {
-    font: normal 11px/12px Tahoma, Geneva, sans-serif;
-    color: #3f3f3f;
-    padding: 0 10px;
-    border-right: #d3d0ca 1px solid;
-    float: left;
-    line-height: 20px
-}
-
-.footer_con ul li a {
-    color: #3f3f3f;
-    text-decoration: none
 }
 
 .tabbed_panel {
@@ -1497,21 +1373,6 @@ ul.home_list_calc li:before {
     margin: 3px 2px
 }
 
-.ques_bg {
-    color: #026ACB;
-    padding: 0 3px;
-    float: left
-}
-
-.ques_bg a {
-    text-decoration: none
-}
-
-.ques_bg a:hover {
-    text-decoration: none;
-    text-shadow: #fff 1px 1px 0
-}
-
 .ec_ans {
     margin: 10px auto;
     padding: 10px;
@@ -1638,12 +1499,6 @@ ul.home_list_calc li:before {
     }
     .ec_calculator {
         margin: 20px 10px
-    }
-    .timer_con_bottom_con input[type=text] {
-        font: bold 13px/20px Tahoma, Geneva, sans-serif!important
-    }
-    .timer_con_bottom_con input[type=button] {
-        font: bold 10px/20px Tahoma, Geneva, sans-serif!important
     }
 }
 
@@ -1934,15 +1789,9 @@ ul.home_list_calc li:before {
         width: 30%;
         min-height: 145px
     }
-    .love {
-        font: bold 16px/26px Arial, Helvetica, sans-serif
-    }
     .but_por input[type=button], .but_por input[type=reset] {
         padding: 0 10px;
         width: 80%!important
-    }
-    .love_result span {
-        padding-top: 10px!important
     }
     .calc_flash {
         width: 98%!important;
@@ -1999,21 +1848,6 @@ ul.home_list_calc li:before {
     }
     .mobileDisp {
         display: inline-block!important
-    }
-    .pregnancy_calc_img {
-        width: auto!important
-    }
-    .pregnancy_calc_right {
-        border-bottom-right-radius: 0;
-        border-top-right-radius: 0;
-        display: block
-    }
-    .pregnancy_calc_right img {
-        border-bottom-right-radius: 0;
-        border-top-right-radius: 0
-    }
-    .pregnancy_calc_left_top {
-        border-top-right-radius: .5em
     }
     .ec_calculator_gen {
         margin: 15px 0!important
@@ -2187,10 +2021,6 @@ ul.home_list_calc li:before {
 .next a, .prev a {
     color: #fff;
     font-weight: 700
-}
-
-.flash_content {
-    font: normal 12px/18px Tahoma, Geneva, sans-serif
 }
 
 .fn_body a {
@@ -2424,46 +2254,6 @@ ul.home_list_calc li:before {
     height: 260px;
     padding: 4px;
     background-color: #F8F8F8
-}
-
-#boxes #dialog1 {
-    width: 390px;
-    height: 260px
-}
-
-#dialog1 .d-header {
-    width: 375px;
-    height: 150px
-}
-
-#dialog1 .d-header input {
-    position: relative;
-    top: 60px;
-    left: 100px;
-    border: 3px solid #ccc;
-    height: 22px;
-    width: 200px;
-    font-size: 15px;
-    padding: 5px;
-    margin-top: 4px
-}
-
-#dialog1 .d-blank {
-    float: left;
-    width: 267px;
-    height: 53px
-}
-
-#dialog1 .d-login {
-    float: left;
-    width: 120px;
-    height: 53px
-}
-
-#boxes #dialog2 {
-    width: 326px;
-    height: 229px;
-    padding: 50px 0 20px 25px
 }
 
 .pop_title {
@@ -2850,39 +2640,6 @@ var.vector span {
     display: block!important
 }
 
-.showLeftTree h2 {
-    background: #04a5eb;
-    border-left: 5px solid #0a7ac2;
-    color: #fff;
-    border-bottom: 2px
-}
-
-.showLeftTree h2:after {
-    color: #fff
-}
-
-.showLeftTree ul li a {
-    text-decoration: none;
-    display: block;
-    padding: 5px 10px
-}
-
-.showLeftTree ul li a:hover {
-    color: #0D75BD;
-    text-decoration: none;
-    display: block;
-    padding: 5px 10px
-}
-
-.showLeftTree ul li:before {
-    color: #0fb5dd;
-    content: "▸ ";
-    float: left;
-    font-size: 12px;
-    margin-right: 5px;
-    margin-top: 4px
-}
-
 .marginLeft {
     margin: 1%
 }
@@ -2925,7 +2682,7 @@ var.vector span {
 }
 
 .group_con_edit {
-    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     float: left!important;
     margin-bottom: 5px;
     padding-right: 5px
