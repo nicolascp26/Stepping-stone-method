@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-    <title>Optimizacion | Problema del transporte usando el metodo del cruce del arroyo </title>
+    <title>Optimizacion | Problema del transporte usando el metodo del cruce del arroyo</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- main css -->
@@ -81,7 +81,8 @@
     <!-- content ends -->
 
     <!-- Import logic and lib -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src='lib/jquery.min.js'></script>
     <script src='lib/common.js'></script>
     <script src='lib/jquery.sticky.js'></script>
     <script src='lib/loader.js'></script>
