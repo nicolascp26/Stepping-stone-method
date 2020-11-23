@@ -263,7 +263,7 @@ function northwest_corner() {
 		}
 
 		var datastring = "values=" + values + "&oferta=" + oferta + "&demanda=" + demanda + "&numFilas=" + numFilas + "&numColumnas=" + numColumnas;
-		var pathurl = "crucedelarroyo.php";
+		var pathurl = "http://localhost/optimizacion/crucedelarroyo.php";
 		$.ajax({
 			async: true,
 			type: "POST",

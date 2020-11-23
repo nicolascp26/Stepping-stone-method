@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
     <title>Optimizacion | Problema del transporte usando el metodo del cruce del arroyo</title>
     <meta charset="UTF-8">
@@ -24,7 +25,7 @@
                 Por lo tanto, si se desear minimizar los costos totales, la solucion optima se encontrara cuando todos los recorridos cerrados sean positivos.</p>
             <!-- ec_calculator begins -->
             <div class="ec_calculator_gen clearfix">
-                <h2>Ingresar los datos</h2>
+                <h2>Ingresar dimensiones</h2>
                 <div class="clearfix"></div>
                 <div class='clear'></div>
                 <form name=first method="POST">
@@ -82,18 +83,17 @@
 
     <!-- Import logic and lib -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <script src='lib/jquery.min.js'></script>
-    <script src='lib/common.js'></script>
-    <script src='lib/jquery.sticky.js'></script>
-    <script src='lib/loader.js'></script>
+    <script type='text/javascript' src='lib/jquery.min.js'></script>
+    <script type='text/javascript' src='lib/common.js'></script>
+    <script type='text/javascript' src='lib/jquery.sticky.js'></script>
+    <script type='text/javascript' src='lib/numeric.js'></script>
     <script type='text/javascript' src='metodo.js'></script>
     <style>
         .tablhiglt {
             background: darkgray;
         }
     </style>
-    
-    <script type="text/javascript">
+        <script type="text/javascript">
         function alert(val) {
             $("#dynErrDisp").show();
             $("#dynErrDisp").html(val);
@@ -102,27 +102,5 @@
             closeModal();
         });
     </script>
-
-    <script type="text/javascript">
-        var mobiScrnWidth = $(window).width();
-
-        function showhidetopcate(obj) {
-            if (mobiScrnWidth < 480) {
-                var currightid = obj.id;
-                if (currightid == "topcaterightbox") {
-                    $("#popcalcrightbox ul").hide();
-                } else if (currightid == "popcalcrightbox") {
-                    $("#topcaterightbox ul").hide();
-                }
-                $("#" + currightid + " ul").show();
-            }
-        }
-        $(document).ready(function() {
-            if (mobiScrnWidth < 480) {
-                $("#popcalcrightbox ul").hide();
-                $("#topcaterightbox ul").hide();
-            }
-        });
-    </script>
-</body>
+    </body>
 </html>
