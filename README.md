@@ -1,11 +1,15 @@
 ## Copyright
 
-This program was code by Nicolas Carreño for Optimization class.
+This program was code by Nicolas Carreño for Optimization class at Saint Thomas University, Tunja, Colombia.
 GNU General Public License
 
 ## Structure
 
 - `src`: the folder to maintain sources
+
+## Description
+
+This software provides a console level solution to solve a matrix of Transportation cost using the Stepping stone method. We determine that what effect on the transportation cost would be in case one unit is assigned to the empty cell.
 
 ## Instrucciones
 Nota: Los datos deben ir separados por espacios y siguiendo la siguientes normas:
